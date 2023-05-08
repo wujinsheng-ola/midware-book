@@ -12,7 +12,7 @@
 
 | SDK名称                                             | 概述         | 仓库地址                                                  | 负责人               |
 | --------------------------------------------------- | ------------ | --------------------------------------------------------- | -------------------- |
-| cli-webview_flutter                                 | 浏览器sdk    | https://github.com/olaola-chat/cli-webview_flutter.git    | 刘锡清、唐斌         |
+| cli-webview_flutter                                 | 浏览器sdk | https://github.com/olaola-chat/cli-webview_flutter.git    | 刘锡清、唐斌         |
 | cli-bbim | 自研IMsdk    | https://github.com/olaola-chat/cli-bbim.git               | 巫金生               |
 | cli-bb_attr_report                                  | 归因sdk      | https://github.com/olaola-chat/cli-bb_attr_report.git     | 巫金生               |
 | cli-bblog                                           | 日志sdk      | https://github.com/olaola-chat/cli-bblog.git              | 肖纳                 |
