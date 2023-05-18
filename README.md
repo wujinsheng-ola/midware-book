@@ -1,54 +1,190 @@
----
-html:
-    toc: true
-    # number_sections: true
-    toc_depth: 6
-    toc_float: true
-        collapsed: true
-        smooth_scroll: true
---- 
+# 为什么要搞“中台”
+ [![Join Us](https://img.shields.io/badge/Join-Us-brightgreen.svg)](https://github.com/orgs/olaola-chat/repositories) 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [为什么要搞“中台”](#为什么要搞中台)
-- [技术中台：](#技术中台)
-
-<!-- /code_chunk_output -->
-### 为什么要搞“中台”
-
-“中台”是对传统“软件平台”的升级和加强，通过在企业层面引入新的专业化职能分工、数据唯一性建模等规则；在解决软件行业“重复造轮子”问题的基础上，进一步解决了传统“软件平台”未能解决的“软件平台间职能边界划分问题”及“数据孤岛问题”。根据业务发展情况，由业务中台、技术中台以及数据中台组成，目标是要做到功能多、接入快、体验好、省钱省成本。
-
+  “中台”是对传统“软件平台”的升级和加强，通过在企业层面引入新的专业化职能分工、数据唯一性建模等规则；在解决软件行业“重复造轮子”问题的基础上，进一步解决了传统“软件平台”未能解决的“软件平台间职能边界划分问题”及“数据孤岛问题”。根据业务发展情况，由业务中台、技术中台以及数据中台组成，目标是要做到功能多、接入快、体验好、省钱省成本。<br>
 ![中台形象图](./中台形象图.webp)
 
-### 技术中台：
+[TOC]
+
+
+
+## 技术中台：
 
 集中解决大部分业务重复造轮子的问题并整合提供最优的技术解决方案。
 
-**客户端sdk：**
+### 客户端SDK
 
-| SDK名称                                             | 概述         | 仓库地址                                                  | 负责人               |
-| --------------------------------------------------- | ------------ | --------------------------------------------------------- | -------------------- |
-| cli-webview_flutter                                 | 浏览器sdk | https://github.com/olaola-chat/cli-webview_flutter.git    | 刘锡清、唐斌         |
-| cli-bbim | 自研IMsdk    | https://github.com/olaola-chat/cli-bbim.git               | 巫金生               |
-| cli-bb_attr_report                                  | 归因sdk      | https://github.com/olaola-chat/cli-bb_attr_report.git     | 巫金生               |
-| cli-bblog                                           | 日志sdk      | https://github.com/olaola-chat/cli-bblog.git              | 肖纳                 |
-| cli-debug_limit                                     | 包校验sdk    | https://github.com/olaola-chat/cli-debug_limit.git        | 巫金生、唐斌         |
-| cli-statistics-flutter                              | 实时上报sdk  | https://github.com/olaola-chat/cli-statistics-flutter.git | 罗维樵、肖纳、刘锡清 |
-| cli-code-check                                      | App 合规工具 | https://github.com/olaola-chat/cli-code-check.git         | 罗维樵               |
-| cli-user_survey                                     | 用研sdk      | https://github.com/olaola-chat/cli-user_survey.git        | 唐斌                 |
-| cli-lvb                                             | 录屏sdk      | https://github.com/olaola-chat/cli-lvb.git                | 唐斌                 |
-| cli-net-client                                      | 公共网络库   | https://github.com/olaola-chat/cli-net-client.git         | 肖纳、罗维樵         |
-| cli-quickly-start-Kibana                                      | Kibana指南   | https://github.com/olaola-chat/cli-quickly-start-Kibana.git         | 唐斌         |
-| cli-app_permission_statistics                                      | ipa权限对比   | https://github.com/olaola-chat/cli-app_permission_statistics.git         | 唐斌         |
+###### 浏览器 SDK
 
-**平台服务：**
+基于业务需求和Jsbridge桥接的定制官方浏览器，兼容低版本laya游戏、控制台日志输出等
 
-| 名称         | 概述         | 访问地址                                                 | 负责人         |
-| ------------ | ------------ | -------------------------------------------------------- | -------------- |
-| 低代码平台   | 低代码平台   | https://bc-admin.iambanban.com/lesscode/guidlist/main    | 林宋梓、唐国鹏 |
-| 短信管理平台 | 短信管理平台 | https://bc-admin.iambanban.com/operate/sms/smsRecordLogs | 熊宇、黄海林   |
-| 可视化活动   | 可视化活动   | https://bc-admin.iambanban.com/operate/activity/list     | 蔡文辟         |
-| Push管理     | Push管理     | https://bc-admin.iambanban.com/operate/push/index        | 严文聪         |
-| 设计中台     | 设计中台     | https://bc-admin.iambanban.com/operate/push/index        | 林跃           |
+> SDK名称：cli-webview_flutter
+> 仓库地址：https://github.com/olaola-chat/cli-webview_flutter.git
+> 负责同事：刘锡清、唐斌
+
+
+
+###### 自研IM SDK
+
+一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
+
+> SDK名称：cli-bbim
+> 仓库地址：https://github.com/olaola-chat/cli-bbim.git 
+> 负责同事：巫金生
+
+
+
+###### 归因 SDK
+
+收集用户终端基础信息以及统计用户行为的关键流程
+
+> SDK名称：cli-bb_attr_report
+> 仓库地址：https://github.com/olaola-chat/cli-bb_attr_report.git
+> 负责同事：巫金生
+
+
+
+###### 日志 SDK
+
+自研的日志采集工具，压缩优化生成日志体积，提供日志搜索平台
+
+> SDK名称：cli-bblog
+> 仓库地址： https://github.com/olaola-chat/cli-bblog.git 
+> 负责同事：肖纳
+
+
+
+###### 包校验 SDK
+
+通过验证码校验和签名校验可以防止App测试包对外泄漏
+
+> SDK名称：cli-debug_limit
+> 仓库地址： https://github.com/olaola-chat/cli-debug_limit.git
+> 负责同事：巫金生、唐斌
+
+
+
+###### 实时上报 SDK
+
+一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
+
+> SDK名称：cli-statistics-flutter
+> 仓库地址：https://github.com/olaola-chat/cli-statistics-flutter.git 
+> 负责同事：罗维樵、肖纳、刘锡清
+
+cli-code-check  App 合规工具  https://github.com/olaola-chat/cli-code-check.git  罗维樵
+
+###### App 合规工具
+
+用于App发版本前进行合规检测，包括敏感词检测、隐私分析、lint规则
+
+> SDK名称：cli-code-check
+> 仓库地址：https://github.com/olaola-chat/cli-code-check.git
+> 负责同事：罗维樵
+
+
+
+###### 用研 SDK
+
+通过问卷、访谈等形式进行用户调研分析
+
+> SDK名称：cli-user_survey
+> 仓库地址：https://github.com/olaola-chat/cli-user_survey.git
+> 负责同事：唐斌
+
+
+
+###### 录屏 SDK
+
+基于腾讯lvb录屏推流的sdk，搭配用研SDK使用
+
+> SDK名称：cli-lvb
+> 仓库地址：https://github.com/olaola-chat/cli-lvb.git
+> 负责同事：唐斌
+
+
+
+###### 用研 SDK
+
+一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
+
+> SDK名称：cli-user_survey
+> 仓库地址：https://github.com/olaola-chat/cli-user_survey.git
+> 负责同事：唐斌
+
+
+
+###### 公共网络库
+
+基础的网络库，包括http、http2、rpcx、websocke等网络协议的封装
+
+> SDK名称：cli-net-client
+> 仓库地址：https://github.com/olaola-chat/cli-net-client.git
+> 负责同事：肖纳、罗维樵
+
+cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quickly-start-Kibana.git  唐斌
+
+###### Kibana指南
+
+教你如何使用Kibana配置业务方的表格
+
+> SDK名称：cli-quickly-start-Kibana
+> 仓库地址：https://github.com/olaola-chat/cli-quickly-start-Kibana.git
+> 负责同事：唐斌
+
+
+
+###### ipa权限对比 
+
+教你如何使用Kibana配置业务方的表格
+
+> SDK名称：cli-app_permission_statistics
+> 仓库地址：https://github.com/olaola-chat/cli-app_permission_statistics.git
+> 负责同事：唐斌
+
+
+### 平台服务
+
+###### 低代码平台 
+
+通过低代码的方式快速配置运营活动、榜单等web页面
+
+> 仓库地址：https://bc-admin.iambanban.com/lesscode/guidlist/main
+> 负责同事：林宋梓、唐国鹏
+
+
+
+###### 短信管理平台 
+
+短信管理平台支持多个运营商灵活调配、保障有效触到率的同时降低使用成本
+
+> 仓库地址：https://bc-admin.iambanban.com/operate/sms/smsRecordLogs
+> 负责同事：熊宇
+
+
+
+###### 可视化活动平台 
+
+通过简单的配置可以即时预览当前活动效果，一键配置发到线上，提升运营效率
+
+> 仓库地址：https://bc-admin.iambanban.com/operate/activity/list
+> 负责同事：蔡文辟
+
+
+
+###### 推送管理平台 
+
+管理App的推送任务，包括推送策略，推送目标管理等等
+
+> 仓库地址：https://bc-admin.iambanban.com/operate/push/index
+> 负责同事：严文聪
+
+
+
+###### 设计中台 
+
+帮助设计师完成更多设计资源的管理工作
+
+> 仓库地址：https://bc-admin.iambanban.com/operate/push/index
+> 负责同事：林跃
+
