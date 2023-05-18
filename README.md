@@ -16,8 +16,8 @@
 
 ###### 浏览器 SDK
 
-基于业务需求和Jsbridge桥接的定制官方浏览器，兼容低版本laya游戏、控制台日志输出等
-
+> 基于业务需求和Jsbridge桥接的定制官方浏览器，兼容低版本laya游戏、控制台日志输出等
+> 
 > SDK名称：cli-webview_flutter
 > 仓库地址：https://github.com/olaola-chat/cli-webview_flutter.git
 > 负责同事：刘锡清、唐斌
@@ -26,8 +26,8 @@
 
 ###### 自研IM SDK
 
-一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
-
+> 一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
+> 
 > SDK名称：cli-bbim
 > 仓库地址：https://github.com/olaola-chat/cli-bbim.git 
 > 负责同事：巫金生
@@ -36,8 +36,8 @@
 
 ###### 归因 SDK
 
-收集用户终端基础信息以及统计用户行为的关键流程
-
+> 收集用户终端基础信息以及统计用户行为的关键流程
+> 
 > SDK名称：cli-bb_attr_report
 > 仓库地址：https://github.com/olaola-chat/cli-bb_attr_report.git
 > 负责同事：巫金生
@@ -46,8 +46,8 @@
 
 ###### 日志 SDK
 
-自研的日志采集工具，压缩优化生成日志体积，提供日志搜索平台
-
+> 自研的日志采集工具，压缩优化生成日志体积，提供日志搜索平台
+> 
 > SDK名称：cli-bblog
 > 仓库地址： https://github.com/olaola-chat/cli-bblog.git 
 > 负责同事：肖纳
@@ -56,8 +56,8 @@
 
 ###### 包校验 SDK
 
-通过验证码校验和签名校验可以防止App测试包对外泄漏
-
+> 通过验证码校验和签名校验可以防止App测试包对外泄漏
+> 
 > SDK名称：cli-debug_limit
 > 仓库地址： https://github.com/olaola-chat/cli-debug_limit.git
 > 负责同事：巫金生、唐斌
@@ -66,18 +66,18 @@
 
 ###### 实时上报 SDK
 
-一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
-
+> 一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
+> 
 > SDK名称：cli-statistics-flutter
 > 仓库地址：https://github.com/olaola-chat/cli-statistics-flutter.git 
 > 负责同事：罗维樵、肖纳、刘锡清
 
-cli-code-check  App 合规工具  https://github.com/olaola-chat/cli-code-check.git  罗维樵
+
 
 ###### App 合规工具
 
-用于App发版本前进行合规检测，包括敏感词检测、隐私分析、lint规则
-
+> 用于App发版本前进行合规检测，包括敏感词检测、隐私分析、lint规则
+> 
 > SDK名称：cli-code-check
 > 仓库地址：https://github.com/olaola-chat/cli-code-check.git
 > 负责同事：罗维樵
@@ -86,8 +86,8 @@ cli-code-check  App 合规工具  https://github.com/olaola-chat/cli-code-check.
 
 ###### 用研 SDK
 
-通过问卷、访谈等形式进行用户调研分析
-
+> 通过问卷、访谈等形式进行用户调研分析
+> 
 > SDK名称：cli-user_survey
 > 仓库地址：https://github.com/olaola-chat/cli-user_survey.git
 > 负责同事：唐斌
@@ -96,8 +96,8 @@ cli-code-check  App 合规工具  https://github.com/olaola-chat/cli-code-check.
 
 ###### 录屏 SDK
 
-基于腾讯lvb录屏推流的sdk，搭配用研SDK使用
-
+>基于腾讯lvb录屏推流的sdk，搭配用研SDK使用
+>
 > SDK名称：cli-lvb
 > 仓库地址：https://github.com/olaola-chat/cli-lvb.git
 > 负责同事：唐斌
@@ -106,8 +106,8 @@ cli-code-check  App 合规工具  https://github.com/olaola-chat/cli-code-check.
 
 ###### 用研 SDK
 
-一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
-
+>一款自主技术研发的即时通讯开发工具集，涵盖WebSocket长连接、消息首发、本地信息存储等特
+>
 > SDK名称：cli-user_survey
 > 仓库地址：https://github.com/olaola-chat/cli-user_survey.git
 > 负责同事：唐斌
@@ -116,18 +116,16 @@ cli-code-check  App 合规工具  https://github.com/olaola-chat/cli-code-check.
 
 ###### 公共网络库
 
-基础的网络库，包括http、http2、rpcx、websocke等网络协议的封装
-
+>基础的网络库，包括http、http2、rpcx、websocke等网络协议的封装
+>
 > SDK名称：cli-net-client
 > 仓库地址：https://github.com/olaola-chat/cli-net-client.git
 > 负责同事：肖纳、罗维樵
 
-cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quickly-start-Kibana.git  唐斌
-
 ###### Kibana指南
 
-教你如何使用Kibana配置业务方的表格
-
+>教你如何使用Kibana配置业务方的表格
+>
 > SDK名称：cli-quickly-start-Kibana
 > 仓库地址：https://github.com/olaola-chat/cli-quickly-start-Kibana.git
 > 负责同事：唐斌
@@ -136,8 +134,8 @@ cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quick
 
 ###### ipa权限对比 
 
-教你如何使用Kibana配置业务方的表格
-
+>教你如何使用Kibana配置业务方的表格
+>
 > SDK名称：cli-app_permission_statistics
 > 仓库地址：https://github.com/olaola-chat/cli-app_permission_statistics.git
 > 负责同事：唐斌
@@ -147,8 +145,8 @@ cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quick
 
 ###### 低代码平台 
 
-通过低代码的方式快速配置运营活动、榜单等web页面
-
+>通过低代码的方式快速配置运营活动、榜单等web页面
+>
 > 仓库地址：https://bc-admin.iambanban.com/lesscode/guidlist/main
 > 负责同事：林宋梓、唐国鹏
 
@@ -156,8 +154,8 @@ cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quick
 
 ###### 短信管理平台 
 
-短信管理平台支持多个运营商灵活调配、保障有效触到率的同时降低使用成本
-
+>短信管理平台支持多个运营商灵活调配、保障有效触到率的同时降低使用成本
+>
 > 仓库地址：https://bc-admin.iambanban.com/operate/sms/smsRecordLogs
 > 负责同事：熊宇
 
@@ -165,8 +163,8 @@ cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quick
 
 ###### 可视化活动平台 
 
-通过简单的配置可以即时预览当前活动效果，一键配置发到线上，提升运营效率
-
+>通过简单的配置可以即时预览当前活动效果，一键配置发到线上，提升运营效率
+>
 > 仓库地址：https://bc-admin.iambanban.com/operate/activity/list
 > 负责同事：蔡文辟
 
@@ -174,8 +172,8 @@ cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quick
 
 ###### 推送管理平台 
 
-管理App的推送任务，包括推送策略，推送目标管理等等
-
+>管理App的推送任务，包括推送策略，推送目标管理等等
+>
 > 仓库地址：https://bc-admin.iambanban.com/operate/push/index
 > 负责同事：严文聪
 
@@ -183,8 +181,8 @@ cli-quickly-start-Kibana  Kibana指南  https://github.com/olaola-chat/cli-quick
 
 ###### 设计中台 
 
-帮助设计师完成更多设计资源的管理工作
-
+>帮助设计师完成更多设计资源的管理工作
+>
 > 仓库地址：https://bc-admin.iambanban.com/operate/push/index
 > 负责同事：林跃
 
