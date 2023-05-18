@@ -1,3 +1,21 @@
+---
+html:
+    toc: true
+    # number_sections: true
+    toc_depth: 6
+    toc_float: true
+        collapsed: true
+        smooth_scroll: true
+--- 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [为什么要搞“中台”](#为什么要搞中台)
+- [技术中台：](#技术中台)
+
+<!-- /code_chunk_output -->
 ### 为什么要搞“中台”
 
 “中台”是对传统“软件平台”的升级和加强，通过在企业层面引入新的专业化职能分工、数据唯一性建模等规则；在解决软件行业“重复造轮子”问题的基础上，进一步解决了传统“软件平台”未能解决的“软件平台间职能边界划分问题”及“数据孤岛问题”。根据业务发展情况，由业务中台、技术中台以及数据中台组成，目标是要做到功能多、接入快、体验好、省钱省成本。
